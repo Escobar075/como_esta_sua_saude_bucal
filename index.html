@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saúde Bucal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Como está sua saúde bucal?</h1>
+    <button id="startBtn">Vamos começar?</button>
+
+<div id="quizContainer" class="hidden">
+  <p id="questionText"></p>
+  <div class="btn-group">
+    <button class="answerBtn" data-answer="sim">Sim</button>
+    <button class="answerBtn" data-answer="nao">Não</button>
+  </div>
+  <p id="creditos" class="hidden">– Por Jorgea M. Picanço Monteiro</p>
+</div>
+
+    <div id="result" class="hidden"></div>
+
+    <div id="imagemContato" class="hidden">
+      <img src="img/consultorio.jpeg" alt="Contato da dentista" />
+    </div>
+
+    <button id="restartBtn" class="hidden">Recomeçar</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

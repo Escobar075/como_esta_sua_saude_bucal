@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e6f2ff;
+  color: #003366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #0055a5;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 5px;
+  box-shadow: 0 2px 5px rgba(0, 85, 170, 0.2);
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #005c99;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+#questionText {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  min-height: 60px;
+  color: #004080;
+  background-color: #e0f0ff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 85, 170, 0.2);
+}
+
+#result {
+  margin-top: 30px;
+  padding: 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  line-height: 1.6;
+  box-shadow: 0 2px 10px rgba(0, 85, 170, 0.2);
+}
+
+#result.bom {
+  background-color: #e0f8e0;
+  color: #2e7d32;
+  border-left: 6px solid #2e7d32;
+}
+
+#result.razoavel {
+  background-color: #fff9e0;
+  color: #b36b00;
+  border-left: 6px solid #ff9800;
+}
+
+#result.ruim {
+  background-color: #ffe0e0;
+  color: #d32f2f;
+  border-left: 6px solid #d32f2f;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+#imagemContato {
+  margin-top: 20px;
+}
+
+#imagemContato img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#creditos {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+  margin-top: 10px;
+}
