@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #e6f2ff;
+  background: url("img/fundo-dentes.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: #003366;
   display: flex;
   justify-content: center;
