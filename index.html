@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saúde Bucal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hamburger-menu">
+    <button class="hamburger-icon" aria-label="Abrir menu">☰</button>
+    <div class="lang-dropdown hidden">
+      <button id="ptBtn"><img src="bandeira_BR.png" alt="BR" class="flag-icon"> Português</button>
+      <button id="enBtn"><img src="bandeira_USA.png" alt="EN" class="flag-icon"> English</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Como está sua saúde bucal?</h1>
+    <button id="startBtn">Vamos começar?</button>
+    <div id="progressBarContainer" class="hidden">
+    <div id="progressBar"></div>
+  </div>
+
+  <div id="quizContainer" class="hidden">
+    <p id="questionText"></p>
+    <div class="btn-group">
+      <button class="answerBtn" data-answer="sim">Sim</button>
+      <button class="answerBtn" data-answer="nao">Não</button>
+    </div>
+    <p id="creditos" class="hidden">– Por Dra. Jorgea M. Picanço Monteiro</p>
+  </div>
+
+    <div id="result" class="hidden"></div>
+
+    <div id="imagemContato" class="hidden">
+      <img src="consultorio.jpeg" alt="Contato da dentista" />
+    </div>
+
+    <button id="restartBtn" class="hidden">Recomeçar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
